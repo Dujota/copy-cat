@@ -7,6 +7,19 @@ html {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+@media screen and (min-width: 550px) {
+  html {
+    font-size: 1.2em;
+  }
+
+.palette {
+  background-color: #06D6A0;
+  background-color: #26547C;
+  background-color: #EF476F;
+  background-color: #FFD166;
+  background-color: #FFFCF9;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -36,5 +49,60 @@ ul{
 }
 
 img{
-  width: 100%;
+  max-width: 100%;
+}
+
+.hero-content{
+  text-align: center;
+}
+
+.hero-content > h2{
+  display: inline-block;
+  padding-bottom: 5px;
+  border-bottom: 5px solid #EF476F;
+}
+
+.call-to-action,
+.products,
+.about{
+  padding: 30px 20px
+}
+
+.call-to-action{
+  background-color: #FFD166;
+}
+
+.products{
+  background-color: #f2f2f2;
+}
+
+.about{
+  background-color: #26547C;
+}
+
+footer{
+  background-color: #06D6A0;
+  height: 50px;
+  line-height: 50px;
+  text-align: right;
+  padding: 0 20px;
+}
+
+.container{
+  max-width: 900px;
+  margin: auto;
+}
+
+.team{
+  overflow: hidden;
+}
+
+.team-fun,
+.team-values,
+.team-meow{
+  float: left;
+  width: 33.3333%;
+  text-transform: uppercase;
+  text-align: center;
+  color: #EF476F;
 }
