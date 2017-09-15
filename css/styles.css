@@ -1,0 +1,36 @@
+/*@media screen and (min-width: 550px)
+html {
+    font-size: 1.2em;
+}*/
+
+html {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body, ul, .logo{
+  margin: 0;
+}
+
+header{
+  background-color: #06d6a0;
+  padding: 20px;
+  text-align: center;
+}
+
+.logo{
+  color: #FFFFFF;
+  font-size: 30px;
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+}
+
+.nav-item{
+  margin-bottom: 5px;
+}
